@@ -1,0 +1,135 @@
+
+body{
+        
+        background-color: #FFABDFA1;
+        background-image: url(fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+
+
+
+main{
+        display: flex;
+        height: 90vh;
+        align-items: center ;
+        justify-content: center ;
+        
+        
+}
+
+.contenedor-sobre{
+        top:-250px;
+        position: relative;
+        align-items: center;
+}
+
+
+.cuadro1{
+        position: absolute;
+        border-left: 200px solid transparent ;
+        border-right:200px solid  transparent ;
+        border-top: 100px solid #fe3334;
+        border-bottom:100px solid transparent ;
+        transition:transform 1s;
+       transform-origin:top;
+       opacity: 98%;
+        
+       
+        
+}
+
+
+
+.hoja{
+        
+        position: absolute;
+        left: 25px;
+        z-index:-1;
+        background-color:#FFFFFF;
+        width: 350px;
+        height: 180px;
+        color: #FF6969D9;
+        border-radius: 20px;
+        background-image: url(fondo-papel.jpg);
+        
+        opacity: 90%;
+        
+       
+        
+        
+        
+}
+
+
+       
+
+
+.sobre{ 
+        
+        border-left: 200px solid #ff989e;
+        border-right:200px solid #ff989e;
+        border-top: 100px solid transparent;
+        border-bottom:100px solid #ff858a;
+        opacity: 98%;
+        /*
+        display: flex;
+        align-items: center ;
+        justify-content: center ;
+        */
+}
+.opción{
+        display: flex;
+        gap: 3rem;
+        
+}
+  button {
+        position: relative;
+        left: 100px;
+        height: 2rem;
+        width: 5rem;
+        top: 25px;
+        border-radius: 7px;
+        background-color: #FFC3E8A1;
+        color:#FF5252;
+        border:2px solid #FF0000;
+        cursor: pointer;
+        
+ }
+ 
+ button:hover{
+         background-color:#FF5FF7B8 ;
+         color:#FFFFFFB8;
+         
+ }
+ 
+ 
+ 
+ 
+        
+p{ 
+        font-family: 'Dancing Script';
+        padding: .1rem;
+        line-height: 2rem;
+        color: #000000 ;
+        font-size: 20px;
+       
+}
+
+.open-cuadro{
+        transform: rotateX(180deg);
+        z-index:-1;
+}
+
+.subir-hoja{
+          top:-150px ;
+}
+
+h1{
+        text-align: center;
+        font-family: cursive;
+        color: #9F8AFF;
+}
+
