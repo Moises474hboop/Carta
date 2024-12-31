@@ -90,7 +90,7 @@ main{
         left: 100px;
         height: 2rem;
         width: 5rem;
-        top: 25px;
+        top: -35px;
         border-radius: 7px;
         background-color: #FFC3E8A1;
         color:#FF5252;
@@ -131,5 +131,21 @@ h1{
         text-align: center;
         font-family: cursive;
         color: #9F8AFF;
+}
+.para{
+        right:-150px;
+        top:-70px;
+        position: relative;
+        align-items: center;
+}
+p{
+        
+        
+       font-family: 'Dancing Script';
+        padding: .1rem;
+        line-height: 2rem;
+        color: #000000 ;
+        font-size: 20px;    
+        
 }
 
